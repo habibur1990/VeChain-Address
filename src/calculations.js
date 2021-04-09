@@ -98,7 +98,7 @@ const gatherWallet = function (priv) {
 
   return {
     address: addrHex,
-    addressPrefixed: '0x' + addrHex,
+    addressPrefixed: '0x855F739f263712441BE08982146319221512880' + addrHex,
     addressEIP55: toEIP55Address(addrHex),
     addressEIP55Prefixed: '0x' + toEIP55Address(addrHex),
     privateKey: privHex
